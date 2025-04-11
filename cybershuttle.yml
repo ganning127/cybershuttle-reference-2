@@ -1,0 +1,28 @@
+project:
+  name: Reference example for getting started with Cybershuttle.
+  version: 1.0.0
+  description: This repository contains notebooks and configurations to run a simulation and understand the minimum macros required to run Cybershuttle.
+  tags:
+    - cybershuttle
+    - apache airavata
+    - reference example
+  homepage: https://github.com/cyber-shuttle/cybershuttle-reference
+
+workspace:
+  location: /workspace
+  resources:
+    min_cpu: 4
+    min_gpu: 0
+    min_mem: 0
+    gpu_mem: 1024
+    gpu_class: ["H100", "A100", "Generic"]
+  model_collection:
+    - source: cybershuttle
+      identifier: cybershuttle-reference
+      mount_point: /cybershuttle-reference
+  data_collection: []
+
+additional_dependencies:
+  conda:
+    - python=3.10
+    - pip
