@@ -1,9 +1,9 @@
 project:
-  name: "Getting started with Cybershuttle"
+  name: "a new catalog entry"
   description: "Run a simulation and understand the minimum macros required to run Cybershuttle"
   homepage: https://github.com/cyber-shuttle/cybershuttle-reference
   authors:
-    - Suresh Marru
+    - ganning.xu@gatech.edu
   tags:
     - cybershuttle
     - apache-airavata
