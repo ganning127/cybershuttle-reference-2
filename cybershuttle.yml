@@ -8,6 +8,7 @@ project:
     - cybershuttle
     - apache-airavata
     - reference
+  privacy: PRIVATE
 
 workspace:
   location: /workspace
