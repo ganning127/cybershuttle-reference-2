@@ -3,7 +3,16 @@ project:
   description: "Run a simulation and understand the minimum macros required to run Cybershuttle"
   homepage: https://github.com/cyber-shuttle/cybershuttle-reference
   authors:
-    - ganning.xu@gatech.edu
+    - email: ganning.xu@gatech.edu
+      role: PRIMARY
+    - email: suresh.marru@gatech.edu
+      role: SECONDARY
+    - email: test1@gatech.edu
+      role: TERTIARY
+    - email: test1@gatech.edu
+      role: QUATERNARY
+    - email: test1@gatech.edu
+      role: QUINARY
   tags:
     - cybershuttle
     - apache-airavata
